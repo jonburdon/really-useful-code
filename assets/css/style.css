@@ -1,0 +1,20 @@
+code {
+    display:block;
+}
+
+.codedisplay {
+    background-color: WhiteSmoke;
+    width: 300px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: Gray;
+}
+
+.green {
+    border-style: solid;
+    border-bottom-width: 3px;
+    border-color: SeaGreen;
+}
