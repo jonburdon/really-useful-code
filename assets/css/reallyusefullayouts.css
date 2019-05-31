@@ -1,3 +1,7 @@
+/*Purple Border*/
+.purpleborder {
+  border: solid RebeccaPurple 3px;
+}
 
 /*Width 500*/
 .width500 {
