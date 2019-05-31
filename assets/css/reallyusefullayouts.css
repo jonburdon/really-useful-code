@@ -2,39 +2,41 @@
 /*Width 500*/
 .width500 {
     width: 500px;
-    border: solid SeaGreen 3px;
+    border: solid RebeccaPurple 3px;
 }
 
 /*Width 500 margin auto*/
 .width500-marginauto {
   width: 500px;
   margin: 0 auto;
-  
+  border: solid RebeccaPurple 3px;
 }
 
 /*Max Width 800 margin auto*/
 .maxwidth800-marginauto {
   max-width: 800px;
   margin: 0 auto; 
+  border: solid RebeccaPurple 3px;
 }
 
 /*Width 70% margin auto*/
 .width70percent-marginauto {
   width: 70%;
   margin: 0 auto; 
+  border: solid RebeccaPurple 3px;
 }
 
 /*Styled Box*/
 .styledbox {
   margin: 30px;
   padding: 60px;
-  border: solid SeaGreen 15px;
+  border: solid RebeccaPurple 15px;
 }
 
 /*Styled Box with Border Box*/
 .styledbox-borderbox {
   margin: 30px;
   padding: 60px;
-  border: solid SeaGreen 15px;
+  border: solid RebeccaPurple 15px;
   box-sizing: border-box;
 }
