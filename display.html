@@ -43,7 +43,7 @@
             <span class="purpleborder">Another span with the same simple border.</span><span class="purpleborder">Because these are inline elements, they will only take up the space of their box (margin, border, padding and content.) a elements are common inline elements.</span>
             <br>
         </section>
-                <section>
+        <section>
             <!-- The Inline Block value -->
             <h2>Inline Elements</h2>
             <div class="codedisplay">
@@ -53,10 +53,62 @@
             </div>
             <br><br>
             <div class="purpleborder">You can use the <code>display</code> css property with the <code>inline-block</code> value</div>
-             <div>An element with the <code>inline-block</code> value selected does not add a line break after the element.</div>
-             <div>Importantly, an element displaying as inlne-block can also have the width and height set, which inline elements cannot.</div>
-             <br>
+            <div>An element with the <code>inline-block</code> value selected does not add a line break after the element.</div>
+            <div>Importantly, an element displaying as inlne-block can also have the width and height set, which inline elements cannot.</div>
+            <br>
         </section>
+
+        <section>
+            <!-- The span as inline -->
+            <h2>A span displayed as inline</h2>
+            <div class="codedisplay">
+                <code>.inline {</code>
+                <code>display: inline;</code>
+                <code>border: solid RebeccaPurple 3px;</code>
+                <code>width=100px;</code>
+                <code>height=100px;</code>
+                <code>}</code>
+            </div>
+            <br><br>
+            <p>This is an identical paragraph of text. Within the paragraph is a span element. <span class="inline">This span is displaying with the above code.</span>The same element is being displayed three times, the only different being whether it is
+                displayed a inline, block, or inline-block. As an inline element, width and height do not display.</p>
+            <br>
+        </section>
+        
+                <section>
+            <!-- The span as block -->
+            <h2>A span displayed as block</h2>
+            <div class="codedisplay">
+                <code>.block {</code>
+                <code>display: block;</code>
+                <code>border: solid RebeccaPurple 3px;</code>
+                <code>width=100px;</code>
+                <code>height=100px;</code>
+                <code>}</code>
+            </div>
+            <br><br>
+            <p>This is an identical paragraph of text. Within the paragraph is a span element. <span class="block">This span is displaying with the above code.</span>The same element is being displayed three times, the only different being whether it is
+                displayed a inline, block, or inline-block. As an inline element, width and height do not display.</p>
+            <br>
+        </section>
+        
+                <section>
+            <!-- The span as inline-block -->
+            <h2>A span displayed as inline-block</h2>
+            <div class="codedisplay">
+                <code>.inline-block {</code>
+                <code>display: inline;</code>
+                <code>border: solid RebeccaPurple 3px;</code>
+                <code>width=100px;</code>
+                <code>height=100px;</code>
+                <code>}</code>
+            </div>
+            <br><br>
+            <p>This is an identical paragraph of text. Within the paragraph is a span element. <span class="inline-block">This span is displaying with the above code.</span>The same element is being displayed three times, the only different being whether it is
+                displayed a inline, block, or inline-block. As an inline element, width and height do not display.</p>
+            <br>
+        </section>
+
 
     </main>
 </body>

@@ -3,6 +3,30 @@
   border: solid RebeccaPurple 3px;
 }
 
+/*Span display as inline*/
+.inline {
+  border: solid RebeccaPurple 3px;
+  width: 100px;
+  height: 100px;
+}
+
+/*Span display as a block*/
+.block {
+  display: block;
+  border: solid RebeccaPurple 3px;
+  width: 100px;
+  height: 100px;
+}
+
+/*Span display as inline-block*/
+.inline-block {
+  display: inline-block;
+  border: solid RebeccaPurple 3px;
+  width: 100px;
+  height: 100px;
+}
+
+
 /*Width 500*/
 .width500 {
     width: 500px;
