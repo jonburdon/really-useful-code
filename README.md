@@ -24,7 +24,8 @@
 - [x] Relative positioning
 - [] Fixed positioning
 - [] Absolute positioning
-3. Further explanations added to develop the above pages in to simple lessons.
+3. Edit index.html to create welcome page and add navigation between pages.
+4. Further explanations added to develop the above pages in to simple lessons.
 - [] Seek feedback and update
-4. Develop layouts using absolute positioning
+5. Develop layouts using absolute positioning
 - [] Seek feedback and plan accordingly.

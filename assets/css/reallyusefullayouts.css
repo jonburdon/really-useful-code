@@ -94,3 +94,30 @@
   background-color: #fff;
   border: solid RebeccaPurple 3px;
 }
+
+/*Position fixed to bottom right*/
+.position-fixed-bottom-right {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  max-width: 400px;
+  border: solid RebeccaPurple 3px;
+}
+
+/*Position fixed to bottom left*/
+.position-fixed-bottom-left {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  max-width: 400px;
+  border: solid RebeccaPurple 3px;
+}
+
+/*Position fixed to middle right*/
+.position-fixed-middle-right {
+  position: fixed;
+  bottom: 50%;
+  right: 0px;
+  max-width: 400px;
+  border: solid RebeccaPurple 3px;
+}
