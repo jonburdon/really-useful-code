@@ -23,9 +23,9 @@
 - [x] Box Sizing
 - [x] Relative positioning
 - [x] Fixed positioning
-- [] Absolute positioning
+- [ ] Absolute positioning
 3. Edit index.html to create welcome page and add navigation between pages.
 4. Further explanations added to develop the above pages in to simple lessons.
-- [] Seek feedback and update
+- [ ] Seek feedback and update
 5. Develop layouts using absolute positioning
-- [] Seek feedback and plan accordingly.
+- [ ] Seek feedback and plan accordingly.
