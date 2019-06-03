@@ -84,3 +84,13 @@
   background-color: #fff;
   border: solid RebeccaPurple 3px;
 }
+
+/*Position Relative with top and left properties set*/
+.position-relative-right {
+  position: relative;
+  right: 50px;
+  text-align: right;
+  max-width: 400px;
+  background-color: #fff;
+  border: solid RebeccaPurple 3px;
+}

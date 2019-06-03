@@ -28,12 +28,12 @@
             </div>
             <br><br>
             <div class="position-relative">
-            <p>A relatively positioned element with no additional properties set will display as normal. It would appear the same as <code>position: static</code>. You need to add extra properties to see any difference. See below.</p>
-            <br>
+                <p>A relatively positioned element with no additional properties set will display as normal. It would appear the same as <code>position: static</code>. You need to add extra properties to see any difference. See below.</p>
+                <br>
             </div>
         </section>
 
-         <section>
+        <section>
             <!-- Position Relative - no properties set -->
             <h2>Position relative with properties set.</h2>
             <div class="codedisplay">
@@ -42,18 +42,56 @@
                 border: solid RebeccaPurple 3px;<br>
                 }</code>
             </div>
+<br>
+            <div class="codedisplay">
+                <code>.position-relative-topleft {<br>
+                  position: relative;<br>
+                  top: -30px;<br>
+                  left: 100px;<br>
+                  max-width: 400px;<br>
+                  background-color: #fff;<br>
+                  border: solid RebeccaPurple 3px;<br>
+                }</code>
+            </div>
+<br>
+            <div class="codedisplay">
+               <code>.position-relative-right {<br>
+                  position: relative;<br>
+                  right: 50px;<br>
+                  text-align: right;<br>
+                  max-width: 400px;<br>
+                  background-color: #fff;<br>
+                  border: solid RebeccaPurple 3px;<br>
+                }</code>
+            </div>
+
             <br><br>
             <div class="position-relative">
-            <p>Paragraph One</p>
-            <p>Paragraph Two</p>
-            <p>Paragraph Three</p>
-            <br>
+                <p class="divdisplay">DIV with class <code>position-relative</code></p>
+                <p>Paragraph One</p>
+                <p>Paragraph Two</p>
+                <p>Paragraph Three</p>
+                <br>
             </div>
             <div class="position-relative-topleft">
-            <p>This div has <code>top: -30px;</code> and <code>left: 100px;</code> properties set. The <code>width</code> and <code>background-colour</code> have also been set.</p>
-            <p><code>top: -30px;</code> moves it up by 30px.</p>
-            <p><code>left: 100px;</code> moves it 100px away from the left. ie it moves to the right.</p>
-            <br>
+                <p class="divdisplay">DIV with class <code>position-relative-topleft</code></p>
+                <p>This div has <code>top: -30px;</code> and <code>left: 100px;</code> properties set. The <code>width</code> and <code>background-colour</code> have also been set.</p>
+                <p><code>top: -30px;</code> moves it up by 30px from it's normal position ie inline, block or inline block.</p>
+                <p><code>left: 100px;</code> moves it 100px away from the left. ie it moves to the right.</p>
+                <p>Note that the gap below is caused by the fact that this div has been moved up.</p>
+                <br>
+            </div>
+            </div>
+            <div class="position-relative-right">
+                <p class="divdisplay">DIV with class <code>position-relative-right</code></p>
+                <p>This div is offset 50px<br> right from it's normal position. ie it moves left.<br> It looks terrible!<br>You can only read this because it is right aligned.</p>
+                <p>The gap above this div is caused by the top offset in the previous div.</p>
+                <br>
+            </div>
+                        <div class="position-relative-right">
+                <p class="divdisplay">DIV with class <code>position-relative-right</code></p>
+                <p>This div is offset 50px<br> right from it's normal position. ie it moves left.<br> It looks terrible!<br>You can only read this because it is right aligned.</p>
+                <br>
             </div>
         </section>
 
