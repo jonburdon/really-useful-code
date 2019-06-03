@@ -22,7 +22,7 @@
 - [x] Margins and Width
 - [x] Box Sizing
 - [x] Relative positioning
-- [] Fixed positioning
+- [x] Fixed positioning
 - [] Absolute positioning
 3. Edit index.html to create welcome page and add navigation between pages.
 4. Further explanations added to develop the above pages in to simple lessons.

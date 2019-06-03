@@ -121,3 +121,18 @@
   max-width: 400px;
   border: solid RebeccaPurple 3px;
 }
+
+/*Position absolute top 50px right 50px*/
+.position-absolute-top50-right50 {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  max-width: 100px;
+  border: solid RebeccaPurple 3px;
+}
+
+/*Position relative*/
+.position-relative {
+  position: relative;
+  border: solid RebeccaPurple 3px;
+}

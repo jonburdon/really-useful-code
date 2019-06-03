@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/reallyusefullayouts.css" type="text/css">
+    <title>Absolute Positioning</title>
+</head>
+
+<body>
+    <header>
+        <h1>Position Property with the absolute value</h1>
+    </header>
+
+    <main>
+
+        <section>
+            <!-- Position Fixed - bottom right -->
+            <h2>Position fixed to bottom right of screen.</h2>
+            <div class="codedisplay">
+                <code>
+                .position-fixed-bottom-right {<br>
+                  position: fixed;<br>
+                  bottom: 0px;<br>
+                  right: 0px;<br>
+                  max-width: 400px;<br>
+                  border: solid RebeccaPurple 3px;<br>
+                  }<br>
+                </code>
+            </div>
+            <div class="purpleborder">Div set to <span class="divdisplay"><code>.purpleborder</code></span> with no positioning set. It is higher
+            in the document than the div in the top right.
+                <div class="position-absolute-top50-right50"><span class="divdisplay"><code>.position-absolute-top50-right50</code></span>
+                Is displaying here because there is no element before it with positioning set.</div>
+            </div>
+        </section>
+        
+                <section>
+            <!-- Position Fixed - bottom right -->
+            <h2>Position fixed to bottom right of screen.</h2>
+            <div class="codedisplay">
+                <code>
+                .position-fixed-bottom-right {<br>
+                  position: fixed;<br>
+                  bottom: 0px;<br>
+                  right: 0px;<br>
+                  max-width: 400px;<br>
+                  border: solid RebeccaPurple 3px;<br>
+                  }<br>
+                </code>
+            </div>
+            <div class="purpleborder position-relative">Div set to <span class="divdisplay"><code>.purpleborder</code></span> with no positioning set. It is higher
+            in the document than the div in the top right.
+                <div class="position-absolute-top50-right50"><span class="divdisplay"><code>.position-absolute-top50-right50</code></span>
+                Is displaying here because there is no element before it with positioning set.</div>
+            </div>
+        </section>
+
+    </main>
+</body>
+
+</html>
