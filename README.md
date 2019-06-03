@@ -16,16 +16,17 @@
 
 ### Roadmap
 
-1. [x] Basic styling added to display css classes, and break the pages in to sections.
+1. Basic styling added to display css classes, and break the pages in to sections.
 2. Add content as a way for the author to consolidate learning about layout by explaining it.
 - [x] The display property
 - [x] Margins and Width
 - [x] Box Sizing
 - [x] Relative positioning
 - [x] Fixed positioning
-- [ ] Absolute positioning
+- [x] Absolute positioning
+- [ ] Float
+- [ ] Column
 3. Edit index.html to create welcome page and add navigation between pages.
-4. Further explanations added to develop the above pages in to simple lessons.
-- [ ] Seek feedback and update
-5. Develop layouts using absolute positioning
-- [ ] Seek feedback and plan accordingly.
+4. Add styling to headers, buttons.
+5. Further explanations added to develop the above pages in to simple lessons.
+6. Develop layouts using absolute positioning
