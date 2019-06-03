@@ -19,7 +19,7 @@
 
         <section>
             <!-- Position Fixed - bottom right -->
-            <h2>Position fixed to bottom right of screen.</h2>
+            <h2>Position absolute to the page.</h2>
             <div class="codedisplay">
                 <code>
                 .position-fixed-bottom-right {<br>
@@ -40,7 +40,7 @@
         
                 <section>
             <!-- Position Fixed - bottom right -->
-            <h2>Position fixed to bottom right of screen.</h2>
+            <h2>Position absolute to nearest positioned ancester.</h2>
             <div class="codedisplay">
                 <code>
                 .position-fixed-bottom-right {<br>
@@ -52,10 +52,10 @@
                   }<br>
                 </code>
             </div>
-            <div class="purpleborder position-relative">Div set to <span class="divdisplay"><code>.purpleborder</code></span> with no positioning set. It is higher
-            in the document than the div in the top right.
+            <div class="purpleborder position-relative">Div set to <span class="divdisplay"><code>.purpleborder</code></span> with <code>position:relative</code> set.
+            It is the nearest positioned ancestor of the div below and to the right.
                 <div class="position-absolute-top50-right50"><span class="divdisplay"><code>.position-absolute-top50-right50</code></span>
-                Is displaying here because there is no element before it with positioning set.</div>
+                Is displaying here because it is relative to the last element with relative or absolute positioning.</div>
             </div>
         </section>
 
