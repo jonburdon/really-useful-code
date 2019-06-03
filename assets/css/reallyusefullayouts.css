@@ -68,3 +68,19 @@
   border: solid RebeccaPurple 15px;
   box-sizing: border-box;
 }
+
+/*Position Relative with no properties set*/
+.position-relative {
+  position: relative;
+  border: solid RebeccaPurple 3px;
+}
+
+/*Position Relative with top and left properties set*/
+.position-relative-topleft {
+  position: relative;
+  top: -30px;
+  left: 100px;
+  max-width: 400px;
+  background-color: #fff;
+  border: solid RebeccaPurple 3px;
+}

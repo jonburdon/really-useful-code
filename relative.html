@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/reallyusefullayouts.css" type="text/css">
+    <title>Relative Positioning</title>
+</head>
+
+<body>
+    <header>
+        <h1>Position Property with the value Relative</h1>
+    </header>
+
+    <main>
+
+        <section>
+            <!-- Position Relative - no properties set -->
+            <h2>Position relative with no properties set.</h2>
+            <div class="codedisplay">
+                <code>.position-relative {<br>
+                position: relative;<br>
+                border: solid RebeccaPurple 3px;<br>
+                }</code>
+            </div>
+            <br><br>
+            <div class="position-relative">
+            <p>A relatively positioned element with no additional properties set will display as normal. It would appear the same as <code>position: static</code>. You need to add extra properties to see any difference. See below.</p>
+            <br>
+            </div>
+        </section>
+
+         <section>
+            <!-- Position Relative - no properties set -->
+            <h2>Position relative with properties set.</h2>
+            <div class="codedisplay">
+                <code>.position-relative {<br>
+                position: relative;<br>
+                border: solid RebeccaPurple 3px;<br>
+                }</code>
+            </div>
+            <br><br>
+            <div class="position-relative">
+            <p>Paragraph One</p>
+            <p>Paragraph Two</p>
+            <p>Paragraph Three</p>
+            <br>
+            </div>
+            <div class="position-relative-topleft">
+            <p>This div has <code>top: -30px;</code> and <code>left: 100px;</code> properties set. The <code>width</code> and <code>background-colour</code> have also been set.</p>
+            <p><code>top: -30px;</code> moves it up by 30px.</p>
+            <p><code>left: 100px;</code> moves it 100px away from the left. ie it moves to the right.</p>
+            <br>
+            </div>
+        </section>
+
+    </main>
+</body>
+
+</html>
