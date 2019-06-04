@@ -60,17 +60,30 @@
         </section>
 
         
-                <section>
+                        <section>
             <!-- Position Fixed - bottom right -->
-            <h2>Position absolute used to place one div behind another *DEMONSTRATE WHY THIS IS USEFUL IN TERMS OF OPACITY CONTROLING WHOLE DIV AND FOR TWO TONE EFFECTS**</h2>
+            <h2>Position relative with opacity set</h2>
             <div class="codedisplay">
                 <code>
                 code
                 </code>
             </div>
-            <div class="purpleborder position-relative-example2 width500">Div set to <code class="divdisplay">.purpleborder .width500</code> with <code class="divdisplay">position:relative</code> asigned.
-            
-                
+            <div class="purpleborder position-relative-opacity5 width500">Div set to <code class="divdisplay">.purpleborder .width500</code> with
+            <code class="divdisplay">position:relative</code> asigned. The opacity is applied to the whole div, even the text. This is not useful.
+            how can we make opacity apply only to the background?
+            </div>
+        </section>
+        
+                <section>
+            <!-- Position Fixed - bottom right -->
+            <h2>Position absolute applied to pesudo element of original div</h2>
+            <div class="codedisplay">
+                <code>
+                code
+                </code>
+            </div>
+            <div class="purpleborder position-relative-example2 width500">Div set to <code class="divdisplay">.purpleborder .width500</code> with
+            <code class="divdisplay">position:relative</code> asigned. Pseudo element has position absolute and a lower z index, so it displays behind.
             </div>
         </section>
 
