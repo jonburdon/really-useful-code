@@ -135,4 +135,28 @@
 .position-relative {
   position: relative;
   border: solid RebeccaPurple 3px;
+  height: 100px;
+}
+
+/*Position relative*/
+.position-relative-example2 {
+  position: relative;
+  border: solid RebeccaPurple 3px;
+  height: 100px;
+}
+
+/* Add opacity to background without adding text opacity for the same container */
+.position-relative-example2:after {
+    content: "";
+    background-color: lavender;
+    opacity: 0.7;
+    /*background-position: center;*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: cover;*/
+    top: 33%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
 }
