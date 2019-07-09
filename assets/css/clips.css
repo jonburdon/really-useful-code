@@ -1,0 +1,85 @@
+.triangle-clip {clip-path: polygon(50% 0%, 0% 100%, 100% 100%);}
+
+.triangle-clip-low {clip-path: polygon(50% 54%, 0% 100%, 100% 100%);}
+
+.bottom-left-slice {clip-path: polygon(0 1%, 100% 0, 100% 100%, 0 80%);}
+
+
+
+
+
+/* Animations */
+
+
+
+
+
+
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes tringleani {
+    from clip-path: polygon(50% 54%, 0% 100%, 100% 100%);
+    to clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  }
+  
+  /* Standard syntax */
+  @keyframes tringleani {
+    from clip-path: polygon(50% 54%, 0% 100%, 100% 100%);
+    to clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  }
+
+  .triani {
+    clip-path: polygon(50% 54%, 0% 100%, 100% 100%);
+      animation-name: triangleani;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+  }
+
+  /* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+  }
+  
+  /* Standard syntax */
+  @keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+  }
+
+  .example 
+    {
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+        -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+        animation-name: example;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+      }
+
+
+  /* Safari 4.0 - 8.0 */
+@-webkit-keyframes testheightchange {
+    from {clip-path: polygon(50% 54%, 0% 100%, 100% 100%);}
+    to {clip-path: polygon(50% 0%, 0% 100%, 100% 100%);}
+  }
+  
+  /* Standard syntax */
+  @keyframes testheightchange {
+    from {clip-path: polygon(50% 54%, 0% 100%, 100% 100%);}
+    to {clip-path: polygon(50% 0%, 0% 100%, 100% 100%);}
+  }
+
+  .testtr 
+    {
+        width: 350px;
+        height: 350px;
+        background-color: red;
+        -webkit-animation-name: testheightchange; /* Safari 4.0 - 8.0 */
+        -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+        animation-name: testheightchange;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+      }
