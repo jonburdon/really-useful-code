@@ -14,7 +14,7 @@
 - Cloud9
 - Git
 
-### Roadmap
+### Future Plans
 
 1. Basic styling added to display css classes, and break the pages in to sections.
 2. Add content as a way for the author to consolidate learning about layout by explaining it.
